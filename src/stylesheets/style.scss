@@ -75,14 +75,6 @@ html, body{
     position:relative;
 }
 
-/*#content{*/
-    /*position:absolute;*/
-/*}*/
-
-/*.main{*/
-    /*position:relative;*/
-/*}*/
-
 .navbar{
     position: absolute;
     width: 100%;
@@ -426,7 +418,32 @@ html, body{
 }
 
 
-
+@media screen and (min-width:3000px){
+    .navbar{
+        zoom:3;
+    }    
+    .page-container{
+        zoom:3;
+    }
+    .schedule-block{
+        p{
+            line-height:24px;
+        }
+    }
+}
+@media screen and (min-width:2200px){
+    .navbar{
+        zoom:2;
+    }    
+    .page-container{
+        zoom:2;
+    }
+    .schedule-block{
+        p{
+            line-height:24px;
+        }
+    }
+}
 
 
 
