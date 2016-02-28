@@ -5,7 +5,6 @@ import React, {Component}  from 'react';
 class Main extends React.Component{
     constructor(){
         super();
-
         this.state={
             which:0,
             notknow:true,
@@ -28,7 +27,7 @@ class Main extends React.Component{
             arrows:false,
             draggable:false
         });
-        $('.page').width($(window).width());
+        $('.main').css('width',$(window).width());
         window.location=window.location.toString().split('#')[0] + '#target-main';
         var self=this;
         $.ajax({
