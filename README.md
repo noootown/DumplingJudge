@@ -16,6 +16,7 @@ Front-end:
 
 Back-end:
 - Nodejs (isomorphic javascript)
+- Mongodb
 
 Development:
 - gulp
