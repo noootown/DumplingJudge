@@ -22,3 +22,4 @@ Development:
 
 Libraries:
 - https://github.com/sheethub/2016electionchart
+- https://github.com/kenwheeler/slick/
