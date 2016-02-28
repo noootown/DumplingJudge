@@ -16,9 +16,11 @@ Front-end:
 
 Back-end:
 - Nodejs (isomorphic javascript)
+- Mongodb
 
 Development:
 - gulp
 
 Libraries:
 - https://github.com/sheethub/2016electionchart
+- https://github.com/kenwheeler/slick/
