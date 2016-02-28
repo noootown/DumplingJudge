@@ -28,6 +28,7 @@ class Main extends React.Component{
             arrows:false,
             draggable:false
         });
+        $('.page').width($(window).width());
         window.location=window.location.toString().split('#')[0] + '#target-main';
         var self=this;
         $.ajax({
